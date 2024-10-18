@@ -1,0 +1,387 @@
+{
+  "jcr:created": "Mon Jul 08 2024 12:25:41 GMT+0000",
+  "jcr:createdBy": "adisharm@adobe.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "template": "helpxmain-article",
+    "cq:lastReplicatedBy": "soraj@adobe.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "soraj@adobe.com",
+    "sling:resourceType": "core/franklin/components/page/v1/page",
+    "jcr:title": "Update payment information",
+    "jcr:uuid": "f518d2b1-51e2-4382-9685-f6a7f501b89f",
+    "cq:isDelivered": false,
+    "platform": ["help-ue-eds:platform"],
+    "jcr:versionHistory": "d131f1a4-383a-4184-b9a6-4d63de15ca51",
+    "cq:lastModifiedBy": "adisharm@adobe.com",
+    "cq:template": "/libs/core/franklin/templates/page",
+    "cq:tags": ["help-ue-eds:platform"],
+    "jcr:created": "Mon Jul 08 2024 12:25:41 GMT+0000",
+    "jcr:lastModifiedBy": "adisharm@adobe.com",
+    "jcr:createdBy": "adisharm@adobe.com",
+    "jcr:predecessors": ["ee99a5fe-e1cc-4387-83e3-ece57fadc8c2"],
+    "readyForLoc": true,
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "cq:lastReplicationAction_publish": "Activate",
+    "jcr:lastModified": "Mon Sep 23 2024 10:51:02 GMT+0000",
+    "cq:lastModified": "Thu Oct 17 2024 07:41:54 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Thu Oct 17 2024 10:39:36 GMT+0000",
+    "cq:lastReplicated_publish": "Thu Oct 17 2024 10:39:36 GMT+0000",
+    "jcr:baseVersion": "ee99a5fe-e1cc-4387-83e3-ece57fadc8c2",
+    "root": {
+      "sling:resourceType": "core/franklin/components/root/v1/root",
+      "jcr:primaryType": "nt:unstructured",
+      "section": {
+        "sling:resourceType": "core/franklin/components/section/v1/section",
+        "jcr:primaryType": "nt:unstructured",
+        "text": {
+          "jcr:created": "Mon Jul 08 2024 12:28:16 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 12:28:22 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<p>Keep your payment method up to date. Learn how to update your credit or debit card number, expiration date and fix any card errors.</p>"
+        },
+        "block": {
+          "jcr:created": "Mon Jul 08 2024 12:29:05 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p><strong>Do you have a Teams plan?</strong>&nbsp;Learn how to update the credit card details, billing address, or tax identification number on your account.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 12:41:50 GMT+0000",
+          "name": "Note",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "note"
+        },
+        "block_1314199953": {
+          "jcr:created": "Wed Jul 10 2024 08:38:17 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "Welcome to the HelpX UE-EDS demo",
+          "jcr:lastModified": "Wed Jul 10 2024 08:38:36 GMT+0000",
+          "name": "Quote",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "quote"
+        },
+        "text_2045028239": {
+          "jcr:created": "Mon Jul 08 2024 12:42:11 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 12:42:17 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<h2>How to update your payment information</h2>"
+        }
+      },
+      "section_758113135": {
+        "jcr:created": "Mon Jul 08 2024 12:42:47 GMT+0000",
+        "jcr:lastModifiedBy": "adisharm@adobe.com",
+        "jcr:createdBy": "adisharm@adobe.com",
+        "sling:resourceType": "core/franklin/components/section/v1/section",
+        "jcr:lastModified": "Mon Jul 08 2024 13:05:57 GMT+0000",
+        "jcr:primaryType": "nt:unstructured",
+        "style": "procedure",
+        "block": {
+          "jcr:created": "Mon Jul 08 2024 13:06:18 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Sign in at<strong>&nbsp;<a href=\"https://account.adobe.com/plans?promoid=85665QB7&amp;mv=other\">https://account.adobe.com/plans</a>.</strong></p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:07:22 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "block_1590728923": {
+          "jcr:created": "Mon Jul 08 2024 13:06:44 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Select&nbsp;<strong>Edit billing and payment</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:25:37 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image": {
+          "jcr:created": "Mon Jul 08 2024 13:23:03 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:28:28 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-billing-and-payment-2023.jpg"
+        },
+        "text": {
+          "jcr:created": "Mon Jul 08 2024 13:23:31 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:24:54 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<p>Asked to visit the&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Google Play Store</a>,&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Apple App Store</a>, or&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Adobe Store</a> instead?</p>"
+        },
+        "block_1741683839": {
+          "jcr:created": "Mon Jul 08 2024 13:08:01 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Select either&nbsp;<strong>Add new</strong>&nbsp;or&nbsp;<strong>Edit</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:25:25 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image_205677357": {
+          "jcr:created": "Mon Jul 08 2024 13:25:49 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:29:27 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-payment-billing-details-1.png"
+        },
+        "block_381080153": {
+          "jcr:created": "Mon Jul 08 2024 13:26:07 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Enter your card details, and then select <strong>Save</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:26:17 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image_1817021181": {
+          "jcr:created": "Mon Jul 08 2024 13:26:33 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:30:00 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-payment-method-select-save.jpg"
+        }
+      },
+      "1_1729150914062": {
+        "jcr:created": "Mon Jul 08 2024 12:42:47 GMT+0000",
+        "jcr:lastModifiedBy": "adisharm@adobe.com",
+        "jcr:createdBy": "adisharm@adobe.com",
+        "sling:resourceType": "core/franklin/components/section/v1/section",
+        "jcr:lastModified": "Mon Jul 08 2024 13:05:57 GMT+0000",
+        "jcr:primaryType": "nt:unstructured",
+        "style": "procedure",
+        "block": {
+          "jcr:created": "Mon Jul 08 2024 13:06:18 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Sign in at<strong>&nbsp;<a href=\"https://account.adobe.com/plans?promoid=85665QB7&amp;mv=other\">https://account.adobe.com/plans</a>.</strong></p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:07:22 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "block_1590728923": {
+          "jcr:created": "Mon Jul 08 2024 13:06:44 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Select&nbsp;<strong>Edit billing and payment</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:25:37 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image": {
+          "jcr:created": "Mon Jul 08 2024 13:23:03 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:28:28 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-billing-and-payment-2023.jpg"
+        },
+        "text": {
+          "jcr:created": "Mon Jul 08 2024 13:23:31 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:24:54 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<p>Asked to visit the&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Google Play Store</a>,&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Apple App Store</a>, or&nbsp;<a href=\"https://helpx.adobe.com/manage-account/using/update-billing-information.html#store\">Adobe Store</a> instead?</p>"
+        },
+        "block_1741683839": {
+          "jcr:created": "Mon Jul 08 2024 13:08:01 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Select either&nbsp;<strong>Add new</strong>&nbsp;or&nbsp;<strong>Edit</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:25:25 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image_205677357": {
+          "jcr:created": "Mon Jul 08 2024 13:25:49 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:29:27 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-payment-billing-details-1.png"
+        },
+        "block_381080153": {
+          "jcr:created": "Mon Jul 08 2024 13:26:07 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "<p>Enter your card details, and then select <strong>Save</strong>.</p>",
+          "jcr:lastModified": "Mon Jul 08 2024 13:26:17 GMT+0000",
+          "name": "Step Title",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "steptitle"
+        },
+        "image_1817021181": {
+          "jcr:created": "Mon Jul 08 2024 13:26:33 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/image/v1/image",
+          "jcr:lastModified": "Mon Jul 08 2024 13:30:00 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "fileReference": "/content/dam/help-ue-eds/manage-account/using/edit-payment-method-select-save.jpg"
+        }
+      },
+      "section_858839193": {
+        "jcr:created": "Mon Jul 08 2024 13:26:47 GMT+0000",
+        "jcr:lastModifiedBy": "adisharm@adobe.com",
+        "jcr:createdBy": "adisharm@adobe.com",
+        "sling:resourceType": "core/franklin/components/section/v1/section",
+        "jcr:lastModified": "Mon Jul 08 2024 13:26:47 GMT+0000",
+        "jcr:primaryType": "nt:unstructured",
+        "text": {
+          "jcr:created": "Mon Jul 08 2024 13:26:52 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:27:04 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<h2><strong>Video: Update credit card information and billing address</strong></h2>\n</div>\n</div>"
+        },
+        "text_1631373481": {
+          "jcr:created": "Mon Jul 08 2024 13:34:20 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:34:31 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<h3>If asked in step 2 to visit the Google Play Store, Apple App Store, or Adobe Store</h3>"
+        },
+        "block_2074001904": {
+          "jcr:created": "Tue Jul 09 2024 08:03:05 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "filter": "accordion",
+          "jcr:lastModified": "Tue Jul 09 2024 08:03:05 GMT+0000",
+          "name": "Accordion",
+          "jcr:primaryType": "nt:unstructured",
+          "item": {
+            "summary": "Update details thorugh the Adobe Store",
+            "jcr:created": "Tue Jul 09 2024 08:03:14 GMT+0000",
+            "jcr:lastModifiedBy": "adisharm@adobe.com",
+            "jcr:createdBy": "adisharm@adobe.com",
+            "sling:resourceType": "core/franklin/components/block/v1/block/item",
+            "jcr:lastModified": "Tue Jul 09 2024 08:06:03 GMT+0000",
+            "name": "Accordion Item",
+            "jcr:primaryType": "nt:unstructured",
+            "model": "accordion-item",
+            "text": "<p>In some regions, you are prompted to visit the Adobe Store under the&nbsp;<strong>Billing and payment</strong> section.</p>\n<ol>\n <li>Select&nbsp;<strong>Go to&nbsp;Adobe Store</strong>.</li>\n <li> <p>Select&nbsp;<strong>Edit Payment info</strong>.</p></li>\n <li> <p>Update your payment details in the&nbsp;<strong>My Payment Information</strong>&nbsp;window.</p></li>\n <li> <p>Select&nbsp;<strong>Submit</strong>.</p></li>\n</ol>"
+          },
+          "item_854973892": {
+            "summary": "Update details through the Google Play Store or the Apple App Store",
+            "jcr:created": "Tue Jul 09 2024 08:06:13 GMT+0000",
+            "jcr:lastModifiedBy": "adisharm@adobe.com",
+            "jcr:createdBy": "adisharm@adobe.com",
+            "sling:resourceType": "core/franklin/components/block/v1/block/item",
+            "jcr:lastModified": "Tue Jul 09 2024 08:09:24 GMT+0000",
+            "name": "Accordion Item",
+            "jcr:primaryType": "nt:unstructured",
+            "model": "accordion-item",
+            "text": "<ol>\n <li>Sign in at<strong>&nbsp;<a href=\"https://account.adobe.com/plans?promoid=85665QB7&amp;mv=other\">https://account.adobe.com/plans</a>.</strong></li>\n <li>Select&nbsp;<strong>Go to Google Store</strong>&nbsp;or&nbsp;<strong>Go to App Store.&nbsp;</strong>You're prompted to the Google or Apple support page.</li>\n <li>Follow the onscreen instructions to update your details.</li>\n</ol>"
+          }
+        }
+      },
+      "section_78686444": {
+        "jcr:created": "Mon Jul 08 2024 13:35:30 GMT+0000",
+        "jcr:lastModifiedBy": "adisharm@adobe.com",
+        "jcr:createdBy": "adisharm@adobe.com",
+        "sling:resourceType": "core/franklin/components/section/v1/section",
+        "jcr:lastModified": "Mon Jul 08 2024 13:35:30 GMT+0000",
+        "jcr:primaryType": "nt:unstructured",
+        "text": {
+          "jcr:created": "Mon Jul 08 2024 13:35:35 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:35:41 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<h2>Frequently asked questions</h2>"
+        },
+        "text_1958915928": {
+          "jcr:created": "Mon Jul 08 2024 13:35:53 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:36:02 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p><strong>Why can't I update my credit card information?</strong></p>\n</div>\n</div>\n<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p>If you're unable to update your information, make sure that you're not updating it on the billing date. Additionally,&nbsp;pending payments for 30 days or more can lead to account suspension. In such a case,&nbsp;<a href=\"https://helpx.adobe.com/contact.html\" data-feds-action=\"open-jarvis-chat\">contact us</a>&nbsp;to reactivate your account and update your billing information.</p>\n</div>\n</div>\n<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p><strong>Can I use the same credit or debit card for multiple plans?</strong></p>\n</div>\n</div>\n<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p>If you use the same credit or debit card for multiple plans in your account, your payment details get updated across all the plans. (In certain regions,&nbsp;<a href=\"https://helpx.adobe.com/x-productkb/policy-pricing/adobe-stores-online-order-payment-faq.html#fee\">debit cards may incur a fee</a>&nbsp;from your bank.)</p>\n</div>\n</div>\n<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p><strong>My primary payment method failed. What should I do?</strong></p>\n</div>\n</div>\n<div class=\"text aem-GridColumn aem-GridColumn--default--12\">\n<div class=\"cmp-text \">\n<p>If your primary payment method fails or if the full amount fails to be charged, Adobe may charge any other payment method in your account for the payment amount owed, including partial or incremental payment amounts.</p>\n</div>\n</div>"
+        },
+        "text_1998209732": {
+          "jcr:created": "Mon Jul 08 2024 13:36:19 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:36:29 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<h2>More like this</h2>"
+        },
+        "text_1067569186": {
+          "jcr:created": "Mon Jul 08 2024 13:36:22 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:36:42 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<ul>\n <li><a href=\"https://helpx.adobe.com/manage-account/using/renew-restart-extend-membership.html\">Renew or restart your membership</a></li>\n <li><a href=\"https://helpx.adobe.com/manage-account/using/switch-between-credit-card-and-paypal.html\">Switch between a credit card and PayPal</a></li>\n <li><a href=\"https://helpx.adobe.com/manage-account/kb/fix-failed-missed-payment.html\">Fix a failed or missed payment</a></li>\n</ul>"
+        },
+        "text_660367357": {
+          "jcr:created": "Mon Jul 08 2024 13:36:56 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/text/v1/text",
+          "jcr:lastModified": "Mon Jul 08 2024 13:37:02 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<p><a href=\"https://helpx.adobe.com/legal/legal-notices.html\">Legal Notices</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://www.adobe.com/privacy.html\">Online Privacy Policy</a></p>"
+        },
+        "block": {
+          "jcr:created": "Mon Jul 08 2024 14:33:52 GMT+0000",
+          "jcr:lastModifiedBy": "adisharm@adobe.com",
+          "jcr:createdBy": "adisharm@adobe.com",
+          "sling:resourceType": "core/franklin/components/block/v1/block",
+          "message": "This is a note",
+          "jcr:lastModified": "Mon Jul 08 2024 14:34:04 GMT+0000",
+          "name": "Note",
+          "jcr:primaryType": "nt:unstructured",
+          "model": "note"
+        }
+      }
+    },
+    "image": {
+      "jcr:primaryType": "nt:unstructured"
+    }
+  }
+}
